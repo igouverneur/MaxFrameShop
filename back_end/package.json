@@ -1,0 +1,23 @@
+{
+  "name": "maxframe",
+  "version": "1.0.0",
+  "description": "maxframe shop website",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "react": "npm start --prefix ../front_end",
+    "dev": "concurrently\"npm run server\" \"npm run react\""
+  },
+  "author": "iGou",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.13"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.7"
+  }
+}
